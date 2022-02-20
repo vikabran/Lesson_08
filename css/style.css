@@ -1,0 +1,66 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Taviraj:400&display=swap);
+
+body {
+	font-family: "Lato";
+	color: #1e212c;
+	margin-left: 20px;
+}
+.block-top {
+	color: #1e212c;
+}
+.who {
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.why {
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 40px;
+}
+.list-middle {
+	font-size: 16px;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.list-middle li::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/check.png) 0 5px no-repeat;
+	width: 20px;
+	height: 20px;
+	padding: 0 10px 0 0;
+}
+.button {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	background: #fc4928;
+	border-radius: 4px;
+	padding: 22px;
+	margin-bottom: 100px;
+}
+
+.maple {
+	font-family: "Taviraj";
+	font-size: 36px;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+.maple::after {
+	content: "";
+	display: block;
+	background-color: #333333;
+	height: 1.5px;
+	margin-top: 8px;
+	width: 65px;
+}
